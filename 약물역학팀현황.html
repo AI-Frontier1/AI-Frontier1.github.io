@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>약물역학 팀 현황</title>
+    <style>
+        /* 기본 스타일 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .box {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            width: 150px;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 이미지 크기를 100px로 강제 제한 */
+        .image-container img {
+            width: 100px;               /* 이미지 가로 크기 */
+            height: 100px;              /* 이미지 세로 크기 */
+            object-fit: cover;          /* 비율을 유지하면서 크기를 자름 */
+            border-radius: 50%;         /* 이미지를 원형으로 처리 */
+            margin-bottom: 10px;
+        }
+
+        .name {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .institution {
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <h1>약물역학 팀 현황</h1>
+    <div class="container">
+        <!-- 첫 번째 박스: 신만규 -->
+        <div class="box">
+            <div class="image-container">
+                <img src="신만규.JPG" alt="신만규">
+            </div>
+            <div class="name">신만규</div>
+            <div class="institution">건국대충주병원, 건양대학교병원</div>
+        </div>
+
+        <!-- 두 번째 박스: 곽주현 -->
+        <div class="box">
+            <div class="image-container">
+                <img src="곽주현.JPG" alt="곽주현">
+            </div>
+            <div class="name">곽주현</div>
+            <div class="institution">경북대, 계명대</div>
+        </div>
+
+        <!-- 세 번째 박스: 박소정 -->
+        <div class="box">
+            <div class="image-container">
+                <img src="박소정.JPG" alt="박소정">
+            </div>
+            <div class="name">박소정</div>
+            <div class="institution">부산대, 제주대</div>
+        </div>
+
+        <!-- 네 번째 박스: 강아연 -->
+        <div class="box">
+            <div class="image-container">
+                <img src="강아연.JPG" alt="강아연">
+            </div>
+            <div class="name">강아연</div>
+            <div class="institution">울산대, 부산백</div>
+        </div>
+    </div>
+</body>
+</html>
